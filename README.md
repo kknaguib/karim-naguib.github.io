@@ -1,2 +1,2 @@
-# https://kknaguib.github.io/portfolio/
+# https://kknaguib.github.io
 This is a personal website used to showcase my projects.
