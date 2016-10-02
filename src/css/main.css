@@ -1,8 +1,9 @@
 
 html {
-	/*background: url(https://res.cloudinary.com/knaguibimages/image/upload/o_50/v1474765365/Background_p3qqpv.jpg) no-repeat center center fixed; */
+	
+	background: url(https://res.cloudinary.com/knaguibimages/image/upload/v1475367223/NYC-Desktop_ezur8e.jpg) no-repeat center center fixed; 
 
-	background: url(https://res.cloudinary.com/knaguibimages/image/upload/v1475116867/backgroundImage-3_pw7tj9.jpg) no-repeat center center fixed; 
+ /* background: url(https://res.cloudinary.com/knaguibimages/image/upload/v1475343092/toronto-desktop_xpvvzt.jpg) no-repeat center center fixed; */
 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -15,78 +16,126 @@ body {
 	height: 100%;
 }
 
-/* remove outer padding */
-.main .row {
-  padding: 0px;
-  margin: 0px;
+
+section .box {
+  padding: 50px;
+  background-color: rgba(0,0,0,0.75);
 }
 
-/*Remove rounded coners*/
-nav.sidebar.navbar {
-  border-radius: 0px;
+section .box-home {
+  padding: 30px;
+  margin-top: 90px;
+  color: white;
+  text-align: center;
 }
 
-nav.sidebar,
+section .box-home h2 {
+  font-size: 40px;
+  font-family: 'Electrolize', sans-serif;
+}
+
+section .box-home h1 {
+  font-size: 60px;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.section-title {
+  margin-bottom: 20px;
+  font-size: 22px;
+  line-height: 28px;
+  color: white;
+  font-family: 'Electrolize', sans-serif;
+}
+
+.frame-picture {
+  position: relative;
+  border: 2px solid;
+  border-color: rgba(0, 0, 0, 1);
+  overflow: hidden;
+  margin: 0 0 15px 0;
+}
+
+p {
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.3px;
+  color: white;
+  font-family: 'Electrolize', sans-serif;
+}
+
+#mainFooter {
+  background-color: rgba(0,0,0,1);
+  color: white;
+  position: static;
+}
+
+/*Padding for main content section*/
 .main {
-  -webkit-transition: margin 200ms ease-out;
-  -moz-transition: margin 200ms ease-out;
-  -o-transition: margin 200ms ease-out;
-  transition: margin 200ms ease-out;
-}
-
-
-/* Add gap to nav and right windows */
-.main {
-  padding: 10px 10px 0 10px;
+  padding: 10px 50px 10px 50px;
 }
 
 /*small screens - Mobile */
 @media screen and (min-width : 320px) {
-
+  section {
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 10%;
+    height: 100vh;
+  }
 }
 
 /*medium side display - Tablets*/
 @media (min-width: 768px) {
-  /*Allow main to be next to Nav*/
-  .main {
-    position: absolute;
-    width: calc(100% - 40px);
-    /*keeps 100% minus nav size*/
-    margin-left: 40px;
-    float: right;
+
+  section {
+    padding-top: 50px;
+    padding-left: 70px;
+    padding-right: 70px;
+    margin-bottom: 10%;
+    height: 100vh;
   }
-  /*lets nav bar to be showed on mouseover*/
-  nav.sidebar:hover + .main {
-    margin-left: 200px;
+  
+  /*Spacing between the navbar links*/
+  nav a {
+    color: white;
+    margin-left: 50px;
+    margin-right: 40px;
+    font-size: 14px;
+    font-family: 'Electrolize', sans-serif;
   }
-  /*Center Brand*/
-  nav.sidebar.navbar.sidebar>.container .navbar-brand,
+
+  /*Logo Properties*/
+  nav.topbar.navbar.topbar>.container .navbar-brand,
   .navbar>.container-fluid .navbar-brand {
-    margin-left: 0px;
-    padding-top: 60px;
-    padding-bottom: 60px;
+    margin-left: 10px;
+    padding-top: 8px;
+    padding-bottom: 40px;
+    color: white;
   }
-  /*Center Brand*/
-  nav.sidebar .navbar-brand,
-  nav.sidebar .navbar-header {
-    text-align: center;
-    width: 100%;
-    margin-left: 0px;
+
+  /*Logo Background*/
+  nav.topbar .navbar-brand,
+  nav.topbar .navbar-header {
+    text-align: left;
+    width: auto;
+    margin-left: 50px;
+    margin-right: 10px;
+    margin-top: 20px;
+    background-color: black;
   }
-  /*Center Icons*/
-  nav.sidebar a {
-    padding-right: 13px;
+
+  .navbar-nav {
+    margin-top: 33px;
+    float: left;
   }
-  /*adds border top to first nav box */
-  nav.sidebar .navbar-nav > li:first-child {
-    border-top: 1px #e5e5e5 solid;
-  }
-  /*adds border to bottom nav boxes*/
-  nav.sidebar .navbar-nav > li {
-    border-bottom: 0px #e5e5e5 solid;
+
+  /*adds border to right nav boxes*/
+  nav.topbar .navbar-nav > li {
+    border-right: 1px #e5e5e5 solid;
   }
   /* Colors/style dropdown box*/
-  nav.sidebar .navbar-nav .open .dropdown-menu {
+  nav.topbar .navbar-nav .open .dropdown-menu {
     position: static;
     float: none;
     width: auto;
@@ -97,105 +146,20 @@ nav.sidebar,
     box-shadow: none;
   }
   /*allows nav box to use 100% width*/
-  nav.sidebar .navbar-collapse,
-  nav.sidebar .container-fluid {
-    padding: 0 0px 0 0px;
+  nav.topbar .navbar-collapse,
+  nav.topbar .container-fluid {
+    padding: 0px, 0px, 0px, 0px;
   }
   /*colors dropdown box text */
   .navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
     color: #777;
   }
-  /*gives sidebar width/height*/
-  nav.sidebar {
-    width: 200px;
-    height: 100%;
-    margin-left: -160px;
-    float: left;
-    z-index: 8000;
-    margin-bottom: 0px;
-    background-color: rgba(0,0,0,0.85);
-    position: fixed;
-  }
-  /*give sidebar 100% width;*/
-  nav.sidebar li {
-    width: 100%;
-  }
-  /* Move nav to full on mouse over*/
-  nav.sidebar:hover {
-    margin-left: 0px;
-  }
-  /*for hiden things when navbar hidden*/
-  .forAnimate {
-    opacity: 0;
-  }
 }
 
 /* Desktop View */
 @media (min-width: 1200px) {
-  /*Allow main to be next to Nav*/
-  .main {
-    width: calc(100% - 200px);
-    /*keeps 100% minus nav size*/
-    margin-left: 200px;
-  }
-  /*Show all nav*/
-  nav.sidebar {
-    margin-left: 0px;
-    float: left;
-  }
-  /*Show hidden items on nav*/
-  nav.sidebar .forAnimate {
-    opacity: 1;
-  }
+  
 }
 
-nav.sidebar .navbar-nav .open .dropdown-menu>li>a:hover,
-nav.sidebar .navbar-nav .open .dropdown-menu>li>a:focus {
-  color: #CCC;
-  background-color: transparent;
-}
 
-nav:hover .forAnimate {
-  opacity: 1;
-}
-
-section {
-  padding-top: 50px;
-  padding-left: 20px;
-  padding-right: 20px;
-  margin-bottom: 106px;
-  height: 100vh;
-}
-
-section .box {
-  padding: 50px;
-  background-color: rgba(0,0,0,0.75);
-}
-
-.section-title {
-  margin-bottom: 20px;
-  font-size: 22px;
-  line-height: 28px;
-  color: white;
-}
-
-.frame {
-  position: relative;
-  border: 4px solid;
-  border-color: rgba(0,0,0,0.5);
-  overflow: hidden;
-  margin: 0 0 15px 0;
-}
-
-p {
-  font-size: 15px;
-  line-height: 30px;
-  letter-spacing: 0.3px;
-  color: white;
-}
-
-#mainFooter {
-  background-color: rgba(0,0,0,1);
-  color: white;
-}
 
