@@ -3,7 +3,7 @@ html {
 	
 	background: url(https://res.cloudinary.com/knaguibimages/image/upload/v1475367223/NYC-Desktop_ezur8e.jpg) no-repeat center center fixed; 
 
- /* background: url(https://res.cloudinary.com/knaguibimages/image/upload/v1475343092/toronto-desktop_xpvvzt.jpg) no-repeat center center fixed; */
+  /*background: url(https://res.cloudinary.com/knaguibimages/image/upload/v1475343092/toronto-desktop_xpvvzt.jpg) no-repeat center center fixed; */
 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -28,7 +28,7 @@ body {
 
 section .box {
   padding: 50px;
-  background-color: rgba(0,0,0,0.8);
+  background-color: rgba(0,0,0,1);
 }
 
 section .box-home {
@@ -54,6 +54,7 @@ section .box-home h1 {
   line-height: 28px;
   color: white;
   font-family: 'Electrolize', sans-serif;
+  font-weight: bold;
 }
 
 .frame-picture {
@@ -79,14 +80,54 @@ p {
 }
 
 /*small screens - Mobile */
-@media screen and (min-width : 320px) {
+@media screen and (max-width : 766px) {
   section {
     padding-top: 50px;
     padding-left: 0px;
     padding-right: 0px;
     margin-bottom: 20%;
   }
-  
+
+  .navbar-inverse .navbar-brand {
+    color: white;
+  }
+
+  p {
+    font-size: 14px;
+    color: white;
+    font-family: 'Electrolize', sans-serif;
+  }
+
+  .section-title {
+    margin-bottom: 20px;
+    font-size: 20px;
+    line-height: 28px;
+    color: white;
+    font-family: 'Electrolize', sans-serif;
+  }
+
+  section .box {
+    padding: 25px;
+    background-color: rgba(0,0,0,1);
+  }
+
+  section .box-home {
+    padding: 30px;
+    margin-top: 70px;
+    color: white;
+    text-align: center;
+  }
+
+  section .box-home h2 {
+    font-size: 40px;
+    font-family: 'Electrolize', sans-serif;
+  }
+
+  section .box-home h1 {
+    font-size: 60px;
+    font-family: 'Orbitron', sans-serif;
+  }
+
 }
 
 /*medium side display - Tablets*/
