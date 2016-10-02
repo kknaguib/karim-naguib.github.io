@@ -19,7 +19,7 @@ body {
 
 section .box {
   padding: 50px;
-  background-color: rgba(0,0,0,0.75);
+  background-color: rgba(0,0,0,0.8);
 }
 
 section .box-home {
@@ -57,7 +57,7 @@ section .box-home h1 {
 
 p {
   font-size: 16px;
-  line-height: 30px;
+  line-height: 40px;
   letter-spacing: 0.3px;
   color: white;
   font-family: 'Electrolize', sans-serif;
@@ -83,6 +83,7 @@ p {
     margin-bottom: 10%;
     height: 100vh;
   }
+  
 }
 
 /*medium side display - Tablets*/
@@ -100,7 +101,7 @@ p {
   nav a {
     color: white;
     margin-left: 50px;
-    margin-right: 40px;
+    margin-right: 20px;
     font-size: 14px;
     font-family: 'Electrolize', sans-serif;
   }
