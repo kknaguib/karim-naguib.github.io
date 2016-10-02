@@ -81,6 +81,7 @@ p {
   background-color: rgba(0,0,0,1);
   color: white;
   position: static;
+  font-family: 'Electrolize', sans-serif;
 }
 
 /*small screens - Mobile */
@@ -130,7 +131,7 @@ p {
 
   section .box-home {
     padding: 30px;
-    margin-top: 70px;
+    margin-top: 20px;
     color: white;
     text-align: center;
   }
