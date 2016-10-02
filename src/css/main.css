@@ -79,6 +79,15 @@ p {
 
 /*small screens - Mobile */
 @media screen and (max-width : 766px) {
+  html {
+    background: url(https://res.cloudinary.com/knaguibimages/image/upload/v1475377284/redBG-Mobile_hnggdt.jpg) no-repeat center center fixed; 
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
   section {
     padding-top: 50px;
     padding-left: 0px;
