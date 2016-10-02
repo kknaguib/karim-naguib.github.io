@@ -85,6 +85,18 @@ p {
 
 /*small screens - Mobile */
 @media screen and (max-width : 766px) {
+  
+  h2 .Deloitte-logo {
+    display: flex;
+    background-color: transparent;
+    align-items: center;
+    justify-content: center;
+  }
+
+  h2 .Deloitte-logo:after {
+    content: "\a";
+    white-space: pre;
+  }
 
   section {
     padding-top: 50px;
