@@ -131,7 +131,7 @@ p {
 
   section .box-home {
     padding: 30px;
-    margin-top: 20px;
+    margin-top: 0px;
     color: white;
     text-align: center;
   }
