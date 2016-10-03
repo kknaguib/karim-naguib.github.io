@@ -459,10 +459,20 @@ header h1 {
   line-height: 1.6;
   color: black;
 }
+.cd-timeline-content ul {
+  line-height: 1.6;
+  color: black;
+  font-size: 13px;
+  font-size: 1.3rem;
+  font-family: 'Electrolize', sans-serif;
+}
+.cd-timeline-content li {
+  margin-left: -25px; 
+}
 .cd-timeline-content .cd-read-more {
   float: right;
   padding: .8em 1em;
-  background: #acb7c0;
+  background: black;
   color: white;
   border-radius: 0.25em;
 }
@@ -496,7 +506,7 @@ header h1 {
   }
   .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
     font-size: 14px;
-    font-size: 0.875rem;
+    font-size: 1.2rem;
   }
 }
 @media only screen and (min-width: 1170px) {
