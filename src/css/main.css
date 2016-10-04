@@ -82,6 +82,13 @@ p {
   color: white;
   position: static;
   font-family: 'Electrolize', sans-serif;
+  padding: 50px;
+  font-size: 0.8em;
+}
+
+#mainFooter a {
+  color: white;
+  padding-left: 30px;
 }
 
 /*small screens - Mobile */
