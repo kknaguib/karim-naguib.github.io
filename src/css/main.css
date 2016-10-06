@@ -719,6 +719,38 @@ header h1 {
     -o-transform: translateX(0);
     transform: translateX(0);
   }
+}
+
+/*PORTFOLIO PROJECT PROPERTIES*/
+.row {
+  height: 100%;
+}
+
+.project-container {
+  width: 990px;
+  margin: 0 auto;
+}
+
+.project-item {
+  padding-top: 50px;
+  padding-bottom: 130px;
+  display: block;
+}
+
+.project-screenshot {
+  background-color: white;
+}
+
+.description-container {
+  background-color: yellow;
+}
+
+.project-item img {
+  width: 100%;
+}
+
+
+
 
 
 
