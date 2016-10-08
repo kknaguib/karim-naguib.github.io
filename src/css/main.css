@@ -91,6 +91,66 @@ p {
   padding-left: 30px;
 }
 
+/*PORTFOLIO PROJECT PROPERTIES*/
+.row {
+  height: 100%;
+}
+
+.project-container {
+  overflow: overlay;
+}
+
+.project-item {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  display: block;
+  overflow: overlay;
+  background-color: white;
+  border-radius: 0.825em;
+}
+
+.project-screenshot {
+  background-color: white;
+}
+
+.description-container {
+  overflow: overlay;
+}
+
+.project-item img {
+  width: 100%;
+}
+
+.project-title h3 {
+  font-size: 38px;
+  font-weight: 800;
+  padding-bottom: 10px;
+}
+
+.project-description {
+  color: black;
+  line-height: 26px;
+  font-size: 14px;
+}
+
+.tech-stack {
+  padding: 0;
+  list-style: none;
+  padding-top: 12px;
+}
+
+.tech-stack li {
+  color: white;
+  line-height: 32px;
+  display: inline;
+  border-radius: 4px;
+  font-size: 12px;
+  background: #f04;
+  padding: 4px 9px;
+}
+
 /*small screens - Mobile */
 @media screen and (max-width : 766px) {
   
@@ -152,6 +212,17 @@ p {
     font-size: 50px;
     font-family: 'Orbitron', sans-serif;
   }
+  
+  .project-item {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .project-title h3 {
+    font-size: 26px;
+  } 
 
 }
 
@@ -224,6 +295,7 @@ p {
   .navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
     color: #777;
   }
+
 }
 
 /* Desktop View */
@@ -719,69 +791,6 @@ header h1 {
     -o-transform: translateX(0);
     transform: translateX(0);
   }
-}
-
-/*PORTFOLIO PROJECT PROPERTIES*/
-.row {
-  height: 100%;
-}
-
-.project-container {
-  width: 990px;
-  margin: 0 auto;
-  margin-top: 20px;
-  overflow: overlay;
-}
-
-.project-item {
-  padding-top: 50px;
-  padding-bottom: 50px;
-  padding-left: 50px;
-  padding-right: 50px;
-  display: block;
-  overflow: overlay;
-  background-color: white;
-  border-radius: 0.825em;
-}
-
-.project-screenshot {
-  background-color: white;
-}
-
-.description-container {
-  overflow: overlay;
-}
-
-.project-item img {
-  width: 100%;
-}
-
-.project-title h3 {
-  font-size: 38px;
-  font-weight: 800;
-  padding-bottom: 10px;
-}
-
-.project-description {
-  color: black;
-  line-height: 26px;
-  font-size: 14px;
-}
-
-.tech-stack {
-  padding: 0;
-  list-style: none;
-  padding-top: 12px;
-}
-
-.tech-stack li {
-  color: white;
-  line-height: 32px;
-  display: inline;
-  border-radius: 4px;
-  font-size: 12px;
-  background: #f04;
-  padding: 4px 9px;
 }
 
 
