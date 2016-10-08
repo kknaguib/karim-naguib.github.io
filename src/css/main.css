@@ -103,7 +103,7 @@ p {
 .project-item {
   padding-top: 50px;
   padding-bottom: 50px;
-  padding-left: 50px;
+  padding-left: 90px;
   padding-right: 50px;
   display: block;
   overflow: overlay;
@@ -214,7 +214,7 @@ p {
   }
   
   .project-item {
-    padding-top: 10px;
+    padding-top: 30px;
     padding-bottom: 10px;
     padding-left: 10px;
     padding-right: 10px;
