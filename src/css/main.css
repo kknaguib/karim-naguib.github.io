@@ -151,6 +151,34 @@ p {
   padding: 4px 9px;
 }
 
+/*Google Maps*/
+#map {
+  height: 400px;
+}
+
+.contact-options {
+  list-style: none;
+}
+
+.contact-options li {
+  padding-bottom: 30px;
+  margin-top: 20px;
+}
+
+.contact-options a {
+  color: white;
+}
+
+.contact-options a:hover {
+  color: #f04;
+}
+
+.contact-options a span {
+  font-size: 24px;
+  font-family: 'Electrolize', sans-serif;
+  margin-left: 20px;
+}
+
 /*small screens - Mobile */
 @media screen and (max-width : 766px) {
   
@@ -222,7 +250,22 @@ p {
 
   .project-title h3 {
     font-size: 26px;
-  } 
+  }
+
+  /*Google Maps*/
+  #map {
+    margin-right: 10px;
+    height: 300px;
+  }
+  
+  .contact-options {
+    padding-top: 20px;
+  }
+
+  .contact-options a span {
+    font-size: 15px;
+    font-family: 'Electrolize', sans-serif;
+  }
 
 }
 
