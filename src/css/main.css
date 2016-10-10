@@ -158,6 +158,7 @@ p {
 
 .contact-options {
   list-style: none;
+  padding: 20px;
 }
 
 .contact-options li {
@@ -261,6 +262,10 @@ p {
   .contact-options {
     padding-top: 20px;
   }
+  
+  .contact-options {
+    padding: 0;
+  } 
 
   .contact-options a span {
     font-size: 15px;
