@@ -183,6 +183,31 @@ p {
 /*small screens - Mobile */
 @media screen and (max-width : 766px) {
   
+  body {
+    background-color: #27408B; 
+    /*1E1E1E*/
+  }
+  
+  #navbar-top {
+    background-color: black;
+  }
+
+  #navbar-top a {
+    color: white;
+  }
+
+  /*#navbar-collapse-bar ul {
+    background-color: black;
+  }
+*/
+  #navbar-collapse-bar ul a {
+    color: white;
+  }
+
+  .navbar-collapse {
+    background-color: black;
+  }
+  
   h2 .Deloitte-logo {
     display: flex;
     background-color: transparent;
