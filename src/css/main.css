@@ -28,6 +28,8 @@ body {
   background-color: black;
   color: rgb(102,204,0);
   padding: 20px;
+  font-size: 40px;
+  font-family: 'Electrolize', sans-serif;
 }
 
 section .box {
@@ -54,11 +56,10 @@ section .box-home h1 {
 
 .section-title {
   margin-bottom: 20px;
-  font-size: 22px;
+  font-size: 20px;
   line-height: 28px;
   color: white;
-  font-family: 'Electrolize', sans-serif;
-  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .frame-picture {
@@ -71,17 +72,17 @@ section .box-home h1 {
 
 p {
   font-size: 16px;
-  line-height: 40px;
+  line-height: 30px;
   letter-spacing: 0.3px;
   color: white;
-  font-family: 'Electrolize', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 #mainFooter {
   background-color: rgba(0,0,0,1);
   color: white;
   position: static;
-  font-family: 'Electrolize', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   padding: 50px;
   font-size: 0.8em;
 }
@@ -176,7 +177,7 @@ p {
 
 .contact-options a span {
   font-size: 24px;
-  font-family: 'Electrolize', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   margin-left: 20px;
 }
 
@@ -204,17 +205,6 @@ p {
     background-color: black;
   }
   
-  h2 .Deloitte-logo {
-    display: flex;
-    background-color: transparent;
-    align-items: center;
-    justify-content: center;
-  }
-
-  h2 .Deloitte-logo:after {
-    content: "\a";
-    white-space: pre;
-  }
 
   section {
     padding-top: 50px;
@@ -230,7 +220,7 @@ p {
   p {
     font-size: 14px;
     color: white;
-    font-family: 'Electrolize', sans-serif;
+    font-family: 'Open Sans', sans-serif;
   }
 
   .section-title {
@@ -238,7 +228,7 @@ p {
     font-size: 20px;
     line-height: 28px;
     color: white;
-    font-family: 'Electrolize', sans-serif;
+    font-family: 'Open Sans', sans-serif;
   }
 
   section .box {
@@ -255,12 +245,10 @@ p {
 
   section .box-home h2 {
     font-size: 40px;
-    font-family: 'Electrolize', sans-serif;
   }
 
   section .box-home h1 {
     font-size: 50px;
-    font-family: 'Orbitron', sans-serif;
   }
   
   .project-item {
@@ -290,7 +278,7 @@ p {
 
   .contact-options a span {
     font-size: 15px;
-    font-family: 'Electrolize', sans-serif;
+    font-family: 'Open Sans', sans-serif;
   }
 
 }
@@ -303,7 +291,6 @@ p {
     padding-left: 70px;
     padding-right: 70px;
     margin-bottom: 20%;
-    /*height: 100vh;*/
   }
   
   /*Spacing between the navbar links*/
@@ -312,7 +299,7 @@ p {
     margin-left: 50px;
     margin-right: 20px;
     font-size: 14px;
-    font-family: 'Electrolize', sans-serif;
+    font-family: 'Open Sans', sans-serif;
   }
 
   /*Logo Properties*/
@@ -365,11 +352,6 @@ p {
     color: #777;
   }
 
-}
-
-/* Desktop View */
-@media (min-width: 1200px) {
-  
 }
 
 /*Timeline Properties Start Here*/
@@ -641,7 +623,7 @@ header h1 {
   color: black;
   font-size: 13px;
   font-size: 1.3rem;
-  font-family: 'Electrolize', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 .cd-timeline-content li {
   margin-left: -25px; 
