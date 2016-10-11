@@ -71,7 +71,7 @@ section .box-home h1 {
 }
 
 p {
-  font-size: 16px;
+  font-size: 14px;
   line-height: 30px;
   letter-spacing: 0.3px;
   color: white;
@@ -104,8 +104,8 @@ p {
 .project-item {
   padding-top: 50px;
   padding-bottom: 50px;
-  padding-left: 90px;
-  padding-right: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
   display: block;
   overflow: overlay;
   background-color: white;
@@ -118,6 +118,7 @@ p {
 
 .description-container {
   overflow: overlay;
+  padding: 0;
 }
 
 .project-item img {
@@ -218,7 +219,7 @@ p {
   }
 
   p {
-    font-size: 14px;
+    font-size: 12px;
     color: white;
     font-family: 'Open Sans', sans-serif;
   }
