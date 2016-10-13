@@ -98,7 +98,7 @@ p {
 }
 
 .project-container {
-  overflow: overlay;
+  
 }
 
 .project-item {
@@ -107,7 +107,7 @@ p {
   padding-left: 30px;
   padding-right: 30px;
   display: block;
-  overflow: overlay;
+  overflow: auto;
   background-color: white;
   border-radius: 0.825em;
 }
@@ -117,7 +117,6 @@ p {
 }
 
 .description-container {
-  overflow: overlay;
   padding: 0;
 }
 
