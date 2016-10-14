@@ -1,8 +1,9 @@
 
 html {
 	
-  background: url(https://res.cloudinary.com/knaguibimages/image/upload/v1475382993/sunrise-1014713_1920_peh7fv.jpg) no-repeat center center fixed; 
-
+  background: url(https://res.cloudinary.com/knaguibimages/image/upload/v1475382993/sunrise-1014713_1920_peh7fv.jpg) 
+  no-repeat center center fixed; 
+  
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
