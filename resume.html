@@ -11,16 +11,17 @@
 	<meta name="author" content="Karim Naguib">
 
 	<title>Karim Naguib | Resume</title>
+
+	<style>
+		.pdfobject-container { height: 550px;}
+		.pdfobject { border: 1px solid #666; }
+	</style>
 </head>
 <body>
+	<div id="resumePDF"></div>	
+	<script src="src/js/pdfobject.js"></script>
+	<script>PDFObject.embed("Resume.pdf", "#resumePDF");</script>
+
 	<h3>Powered By W3 Resumes</h3>
-	<div>
-		<object id="pdfViewer" height="750" width="800" data="Resume.pdf" type="application/pdf">
-		  <p>It appears you don't have a PDF plugin for this browser.
-		    No biggie... you can <a href="SamplePDF.pdf">click here to
-		    download the PDF file.</a>
-		  </p>
-		</object>
-	</div>
 </body>
 </html>
