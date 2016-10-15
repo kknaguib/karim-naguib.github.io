@@ -1,5 +1,5 @@
 .pdfobject-container { 
-	height: 575px;
+	height: 100vh;
 }
 .pdfobject { 
 	border: 1px solid #666; 
@@ -10,7 +10,6 @@
 	padding: 10px;
 	text-align: center;
 }
-
 .footer a {
 	background-color: #27408B;
 	color: white;
