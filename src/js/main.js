@@ -23,6 +23,21 @@ $(document).ready(function() {
     }
   });
 
+  $("#viewResumeLink").click(function(event) {
+
+    if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+      alert("Mobile Detected");
+      $("#viewResumeLink").attr({
+        href: 'Resume.pdf'
+      });     
+    }
+    else {
+      $("#viewResumeLink").attr({
+        href: 'resume.html'
+      });
+    }
+  });
+
 });
 
 //Load Google Maps
