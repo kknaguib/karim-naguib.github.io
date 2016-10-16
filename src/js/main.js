@@ -23,10 +23,9 @@ $(document).ready(function() {
     }
   });
 
+  //Used to launch the PDF resume right away on mobile browsers
   $("#viewResumeLink").click(function(event) {
-
     if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-      alert("Mobile Detected");
       $("#viewResumeLink").attr({
         href: 'Resume.pdf'
       });     
