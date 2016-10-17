@@ -145,12 +145,14 @@ p {
 
 .tech-stack li {
   color: white;
-  line-height: 32px;
+  line-height: 25px;
   display: inline;
   border-radius: 4px;
   font-size: 12px;
   background: #f04;
-  padding: 4px 9px;
+  padding: 0px 9px;
+  float: left;
+  margin: 0 5px 10px 0;
 }
 
 /*Google Maps*/
