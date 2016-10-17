@@ -5,14 +5,14 @@
 	border: 1px solid #666; 
 }
 .footer {
-	background-color: black;
-	color: white;
-	padding: 10px;
+	background-color: #001f3f;
+	color: hsla(210, 100%, 75%, 1.0);
+	padding: 15px;
 	text-align: center;
 }
 .footer a {
-	background-color: #27408B;
+	background-color: #111111;
 	color: white;
-	padding: 10px;
-	border: 2px solid white;
+	padding: 5px;
+	border: 1px solid white;
 }
