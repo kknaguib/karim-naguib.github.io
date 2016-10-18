@@ -23,22 +23,22 @@ $(document).ready(function() {
     }
   });
 
-  //Used to launch the PDF resume right away on mobile browsers
-  $("#viewResumeLink").click(function(event) {
-    if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-      $("#viewResumeLink").attr({
-        href: 'Resume.pdf'
-      });     
-    }
-    else {
-      $("#viewResumeLink").attr({
-        href: 'resume.html'
-      });
-    }
-  });
-
 });
 
+//Used to launch the PDF resume right away on mobile browsers
+function viewResume() {
+  if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+    $("#viewResumeLink").attr({
+      href: 'Resume.pdf'
+    });     
+  }
+  else {
+    $("#viewResumeLink").attr({
+      href: 'resume.html'
+    });
+  }
+}
+  
 //Load Google Maps
 var map;
 
