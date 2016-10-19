@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-  //This is used to collapse the navbar on click - Mobile
+  //This is used to collapse the navbar on click of nav item - Mobile
   $(".navbar-nav li a").click(function(event) {
     $(".navbar-collapse").collapse('hide');
   });
@@ -23,9 +23,19 @@ $(document).ready(function() {
     }
   });
 
+  //Sticky navbar on scroll
+  $(window).scroll(function() {
+    if ($(this).scrollTop() > 100) {  
+        $('nav').addClass("navbar-sticky");
+      }
+      else{
+        $('nav').removeClass("navbar-sticky");
+      }
+  });
+
 });
 
-//Used to launch the PDF resume right away on mobile browsers
+//Used to launch the PDF resume directly on mobile browsers
 function viewResume() {
   if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
     $("#viewResumeLink").attr({
