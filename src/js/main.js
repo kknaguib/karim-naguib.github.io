@@ -27,9 +27,11 @@ $(document).ready(function() {
   $(window).scroll(function() {
     if ($(this).scrollTop() > 100) {  
         $('nav').addClass("navbar-sticky");
+        $('.navbar-brand').css('background-color', '#85144b');
       }
       else{
         $('nav').removeClass("navbar-sticky");
+        $('.navbar-brand').css('background-color', 'black');
       }
   });
 
