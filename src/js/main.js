@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-  //This is used to collapse the navbar on click - Mobile
+  //This is used to collapse the navbar on click of nav item - Mobile
   $(".navbar-nav li a").click(function(event) {
     $(".navbar-collapse").collapse('hide');
   });
@@ -23,22 +23,34 @@ $(document).ready(function() {
     }
   });
 
-  //Used to launch the PDF resume right away on mobile browsers
-  $("#viewResumeLink").click(function(event) {
-    if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-      $("#viewResumeLink").attr({
-        href: 'Resume.pdf'
-      });     
-    }
-    else {
-      $("#viewResumeLink").attr({
-        href: 'resume.html'
-      });
-    }
+  //Sticky navbar on scroll
+  $(window).scroll(function() {
+    if ($(this).scrollTop() > 100) {  
+        $('nav').addClass("navbar-sticky");
+        $('.navbar-brand').css('background-color', '#85144b');
+      }
+      else{
+        $('nav').removeClass("navbar-sticky");
+        $('.navbar-brand').css('background-color', 'black');
+      }
   });
 
 });
 
+//Used to launch the PDF resume directly on mobile browsers
+function viewResume() {
+  if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+    $("#viewResumeLink").attr({
+      href: 'Resume.pdf'
+    });     
+  }
+  else {
+    $("#viewResumeLink").attr({
+      href: 'resume.html'
+    });
+  }
+}
+  
 //Load Google Maps
 var map;
 

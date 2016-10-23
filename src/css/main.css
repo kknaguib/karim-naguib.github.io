@@ -1,6 +1,9 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
 
 html {
-	
   background: url(https://res.cloudinary.com/knaguibimages/image/upload/v1475382993/sunrise-1014713_1920_peh7fv.jpg) 
   no-repeat center center fixed; 
   
@@ -23,6 +26,18 @@ body {
   align-items: space-between;
   margin: 40px auto;
   padding: 20px;
+}
+
+nav {
+  transition: all 0.4s ease;
+}
+
+.navbar-sticky {
+  position: fixed;
+  width: 100%;
+  background: black;
+  z-index: 1;
+  top: 0;
 }
 
 .Deloitte-logo {
@@ -72,7 +87,7 @@ section .box-home h1 {
 }
 
 p {
-  font-size: 14px;
+  font-size: 16px;
   line-height: 30px;
   letter-spacing: 0.3px;
   color: white;
@@ -188,8 +203,7 @@ p {
 @media screen and (max-width : 766px) {
   
   body {
-    background-color: #27408B; 
-    /*1E1E1E*/
+    background-color: #27408B;
   }
   
   #navbar-top {
@@ -299,9 +313,9 @@ p {
   /*Spacing between the navbar links*/
   nav a {
     color: white;
-    margin-left: 50px;
-    margin-right: 20px;
-    font-size: 14px;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 18px;
     font-family: 'Open Sans', sans-serif;
   }
 
@@ -309,9 +323,8 @@ p {
   nav.topbar.navbar.topbar>.container .navbar-brand,
   .navbar>.container-fluid .navbar-brand {
     margin-left: 10px;
-    padding-top: 8px;
-    padding-bottom: 40px;
     color: white;
+    font-size: 20px;
   }
 
   /*Logo Background*/
@@ -321,19 +334,23 @@ p {
     width: auto;
     margin-left: 50px;
     margin-right: 10px;
-    margin-top: 20px;
+    margin-top: 0px;
     background-color: black;
   }
 
   .navbar-nav {
-    margin-top: 33px;
-    float: left;
+    margin-top: 0px;
+    float: right;
   }
 
   /*adds border to right nav boxes*/
-  nav.topbar .navbar-nav > li {
+  /*nav.topbar .navbar-nav > li {
     border-right: 1px #e5e5e5 solid;
   }
+  nav.topbar .navbar-nav > li:last-child {
+    border-right: none;
+  }*/
+
   /* Colors/style dropdown box*/
   nav.topbar .navbar-nav .open .dropdown-menu {
     position: static;
